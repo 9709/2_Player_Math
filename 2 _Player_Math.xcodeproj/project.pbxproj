@@ -15,6 +15,8 @@
 		17CBB83C21ED8C6B0047661B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CBB83B21ED8C6B0047661B /* main.m */; };
 		17CBB84621ED8C6B0047661B /* ___Player_MathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CBB84521ED8C6B0047661B /* ___Player_MathTests.m */; };
 		17CBB85121ED8C6B0047661B /* ___Player_MathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CBB85021ED8C6B0047661B /* ___Player_MathUITests.m */; };
+		17CBB86021ED93E80047661B /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CBB85F21ED93E80047661B /* Player.m */; };
+		17CBB86321ED945E0047661B /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CBB86221ED945E0047661B /* GameModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		17CBB84C21ED8C6B0047661B /* 2 _Player_MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2 _Player_MathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CBB85021ED8C6B0047661B /* ___Player_MathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Player_MathUITests.m"; sourceTree = "<group>"; };
 		17CBB85221ED8C6B0047661B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CBB85E21ED93E80047661B /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		17CBB85F21ED93E80047661B /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		17CBB86121ED945E0047661B /* GameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		17CBB86221ED945E0047661B /* GameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				17CBB82D21ED8C6A0047661B /* AppDelegate.m */,
 				17CBB82F21ED8C6A0047661B /* ViewController.h */,
 				17CBB83021ED8C6A0047661B /* ViewController.m */,
+				17CBB85E21ED93E80047661B /* Player.h */,
+				17CBB85F21ED93E80047661B /* Player.m */,
+				17CBB86121ED945E0047661B /* GameModel.h */,
+				17CBB86221ED945E0047661B /* GameModel.m */,
 				17CBB83221ED8C6A0047661B /* Main.storyboard */,
 				17CBB83521ED8C6B0047661B /* Assets.xcassets */,
 				17CBB83721ED8C6B0047661B /* LaunchScreen.storyboard */,
@@ -262,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17CBB86021ED93E80047661B /* Player.m in Sources */,
 				17CBB83121ED8C6A0047661B /* ViewController.m in Sources */,
+				17CBB86321ED945E0047661B /* GameModel.m in Sources */,
 				17CBB83C21ED8C6B0047661B /* main.m in Sources */,
 				17CBB82E21ED8C6A0047661B /* AppDelegate.m in Sources */,
 			);
