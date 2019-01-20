@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Player.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,8 +17,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property int rightValue;
 @property int answer;
 
+@property int playerTurn;
+@property (nonatomic, strong) Player *currentPlayer;
+@property (nonatomic, strong) Player *playerOne;
+@property (nonatomic, strong) Player *playerTwo;
+
 
 - (NSString *)generateQuestion;
+
+- (Player *) nextPlayer;
 
 
 @end
